@@ -1,0 +1,23 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+venv/
+env/
+.conda/
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 大数据文件（train.csv 体积大，建议不上传，在README说明数据即可）
+train.csv
+test.csv
+
+# 离线依赖目录（不推荐上传到GitHub）
+libs/
+
+# 系统临时文件
+Thumbs.db
+.DS_Store
